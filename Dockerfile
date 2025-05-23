@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 8501
 
 # Comando para rodar o Streamlit ouvindo em 0.0.0.0
-CMD ["streamlit", "run", "seu_app.py", "--server.address=0.0.0.0", "--server.port=8501", "--server.baseUrlPath=/streamlit"]
+CMD ["streamlit", "run", "validador_json.py", "--server.address=0.0.0.0", "--server.port=8501", "--server.baseUrlPath=/streamlit"]
